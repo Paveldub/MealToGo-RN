@@ -1,5 +1,11 @@
 {
   "main": "node_modules/expo/AppEntry.js",
+  "orientation": "portrait",
+  "icon": "./assets/favicon.png",
+  "splash": {
+    "image": "./assets/splash.png",
+    "backgroundColor": "#ffffff"
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
